@@ -65,3 +65,6 @@ typings/
 
 # VS code
 .vscode/
+
+# net need
+package-lock.json
