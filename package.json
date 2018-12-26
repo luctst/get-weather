@@ -1,0 +1,32 @@
+{
+  "name": "get-weather",
+  "version": "1.0.0",
+  "description": "*Get some weather information's about any city in the world !!*",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luctst/get-weather.git"
+  },
+  "keywords": [
+    "nodejs", 
+    "javascript",
+    "npm",
+    "npm-package",
+    "npm-module",
+    "weather-api",
+    "weather",
+    "weather-app"
+  ],
+  "author": "Tostée Lucas, lucas.tostee@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luctst/get-weather/issues"
+  },
+  "homepage": "https://github.com/luctst/get-weather#readme"
+}
