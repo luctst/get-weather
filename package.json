@@ -1,5 +1,5 @@
 {
-  "name": "get-weather",
+  "name": "@luctst/get-weather",
   "version": "1.0.0",
   "description": "*Get some weather information's about any city in the world !!*",
   "main": "lib/index.js",
@@ -7,14 +7,15 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/index.js",
+    "build": "npx babel src/index.js -o src/index-min.js | uglifyjs src/index-min.js -o lib/index-min.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/luctst/get-weather.git"
   },
   "keywords": [
-    "nodejs", 
+    "nodejs",
     "javascript",
     "npm",
     "npm-package",
@@ -28,5 +29,9 @@
   "bugs": {
     "url": "https://github.com/luctst/get-weather/issues"
   },
-  "homepage": "https://github.com/luctst/get-weather#readme"
+  "homepage": "https://github.com/luctst/get-weather#readme",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {}
 }
