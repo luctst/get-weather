@@ -24,7 +24,7 @@
     "weather",
     "weather-app"
   ],
-  "author": "Tostée Lucas, lucas.tostee@gmail.com",
+  "author": "Tostée Lucas <lucas.tostee@gmail.com> (https://www.lucas-tostee.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/luctst/get-weather/issues"
